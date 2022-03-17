@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+	font-family: "Roboto";
+}
+@tailwind utilities;
+
+.item {
+    @apply border-b border-transparent hover:border-orange-500 hover:text-orange-500 transition-all;
+}
+
