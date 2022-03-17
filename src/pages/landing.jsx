@@ -1,22 +1,23 @@
 import React from "react";
 
 import Navbar from "../components/navbar";
-// import LandCar from "../components/home/land-carousel";
-// import QuickLinks from "../components/home/quicklinks";
-// import Bureaus from "../components/home/bureaus";
-// import Initiatives from "../components/home/initiatives";
-// import Eminent from "../components/home/eminent";
+import LandCar from "../components/home/land-carousel";
+import QuickLinks from "../components/home/quicklinks";
+import Bureaus from "../components/home/bureaus";
+import Initiatives from "../components/home/initiatives";
+import Eminent from "../components/home/eminent";
 import Footer from "../components/footer";
 
 export default function landing() {
     return (
         <div>
             <Navbar />
-            {/* <LandCar />
+
+            <LandCar />
             <QuickLinks />
             <Bureaus />
             <Initiatives />
-            <Eminent />*/}
+            <Eminent />
             <Footer />
         </div>
     );
