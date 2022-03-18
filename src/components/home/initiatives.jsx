@@ -5,8 +5,8 @@ import study from "../../assets/images/study.svg";
 
 export default function initiatives() {
     return (
-        <div className='overflow-x-hidden mt-18 overflow-y-hidden'>
-            <div className='relative  py-5 mb-10'>
+        <div className='overflow-x-hidden mt-12'>
+            <div className='relative  py-8'>
                 <hr className=' border-orange-500 border-[0.5px]' />
                 <p className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-5 text-2xl font-light'>
                     Initiatives and Schemes
@@ -42,7 +42,7 @@ export default function initiatives() {
                     </p>
                 </div>
 
-                <div className='absolute top-[110px] -right-[10px] -translate-x-1/2 -translate-y-1/2'>
+                <div className='absolute top-[110px] right-[10px] -translate-x-1/2 -translate-y-1/2'>
                     <h1 className='font-semibold text-xl'>
                         3. National e-Scholarship
                     </h1>
@@ -64,7 +64,7 @@ export default function initiatives() {
 
                     <p className='text-[#0C5C8C] font-bold pt-2'>Learn More</p>
                 </div>
-                <div className='absolute top-[650px] left-[420px] -translate-x-1/2 -translate-y-1/2'>
+                <div className='absolute top-[670px] left-[420px] -translate-x-1/2 -translate-y-1/2'>
                     <h1 className='font-semibold text-xl'>
                         2. National e-Scholarship
                     </h1>

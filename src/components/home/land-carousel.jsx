@@ -15,10 +15,10 @@ export default function LandCarousel() {
                     coordinated and integrated manner.
                 </div>
                 <div>
-                    <button className='bg-[#0C5C8C] text-white p-2 rounded-lg m-2 mr-6'>
+                    <button className='bg-[#0C5C8C] text-white p-2 rounded-lg m-2 mr-6 px-4'>
                         PGDM student verification
                     </button>
-                    <button className='bg-[#0C5C8C] text-white p-2 rounded-lg ml-6'>
+                    <button className='bg-[#0C5C8C] text-white p-2 rounded-lg ml-6 px-4'>
                         Centralized support system
                     </button>
                 </div>
@@ -34,19 +34,19 @@ export default function LandCarousel() {
                     className='mt-14 '
                 >
                     <div>
-                        <img src={Img1} className='h-80 ' alt='carousel1' />
+                        <img src={Img1} className='h-80 ' alt='carousel' />
                     </div>
                     <div>
-                        <img src={Img1} className='h-80' alt='carousel1' />
+                        <img src={Img1} className='h-80' alt='carousel' />
                     </div>
                     <div>
-                        <img src={Img1} className='h-80 ' alt='carousel1' />
+                        <img src={Img1} className='h-80 ' alt='carousel' />
                     </div>
                     <div>
                         <img
                             src={Img1}
                             className='h-80 object-cover'
-                            alt='carousel1'
+                            alt='carousel'
                         />
                     </div>
                 </Carousel>

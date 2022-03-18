@@ -4,11 +4,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 * {
-	font-family: "Roboto";
+    font-family: "Roboto";
 }
+
+.border-customized-ot {
+    border-radius: 10px 0 0 10px;
+    border: 2px solid black;
+    border-right: 0px solid white;
+}
+.border-customized-tt {
+    border-radius: 0 10px 10px 0;
+    border: 2px solid black;
+}
+
+.goog-te-gadget-simple  {
+  background-color: rgba(255,255,255,0.20)!important;
+  border: 1px solid rgba(255,255,255,0.50) !important;
+  padding: 8px!important;
+  border-radius: 4px!important;
+  font-size: 1rem!important;
+  line-height:2rem!important;
+  display: inline-block;
+  cursor: pointer;
+  zoom: 1;
+}
+
 @tailwind utilities;
 
 .item {
     @apply border-b border-transparent hover:border-orange-500 hover:text-orange-500 transition-all;
 }
-
