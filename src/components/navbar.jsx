@@ -1,6 +1,6 @@
 import React from "react";
 import nav from "../assets/images/navbar.svg";
-import day from "../assets/images/day.svg";
+import day from "../assets/images/moon.svg";
 import logo from "../assets/images/logo.png";
 import Nav from "./home/nav";
 
