@@ -1,35 +1,57 @@
 import React from "react";
 import nav from "../assets/images/navbar.svg";
-import day from "../assets/images/moon.svg";
+import day from "../assets/images/moon.png";
 import logo from "../assets/images/logo.png";
 import Nav from "./home/nav";
+import { useAuth0 } from "@auth0/auth0-react";
 
-export default function navbar() {
+const Navbar = ({ darkTheme, setDarkTheme }) => {
+    function increaseFontSize(id, increaseFactor) {
+        let txt = document.getElementById("root");
+        let style = window
+            .getComputedStyle(txt, null)
+            .getPropertyValue("font-size");
+        let currentSize = parseFloat(style);
+        txt.style.fontSize = currentSize + increaseFactor + "px";
+    }
+    const { loginWithRedirect } = useAuth0();
     return (
-        <div className=''>
+        <div className='dark:bg-slate-900'>
             <div className='relative'>
                 <img src={nav} alt='navbar' width='100%' />
-                <div className='flex gap-8 absolute text-white left-[50%] top-[50%] text-lg -translate-y-1/2'>
+                <div className='flex gap-4 absolute text-white left-[50%] top-[50%] text-lg -translate-y-1/2'>
                     <p className='p-1'>Text size </p>
-                    <div className='flex gap-4'>
-                        <p className='p-1 border border-white rounded-md px-2'>
+                    <div className='flex gap-2'>
+                        <p
+                            onClick={() => increaseFontSize("b", -1)}
+                            className='p-1 border border-white rounded-md px-2'
+                        >
                             A -
                         </p>
-                        <p className='p-1 border border-white rounded-md px-2'>
-                            A
-                        </p>
-                        <p className='p-1 border border-white rounded-md px-2'>
+
+                        <p
+                            onClick={() => increaseFontSize("b", 1)}
+                            className='p-1 border border-white rounded-md px-2'
+                        >
                             A +
                         </p>
                     </div>
                 </div>
                 <div className='absolute right-[5%] top-[50%] text-md -translate-y-1/2 flex gap-8'>
-                    <div className=' bg-orange-500 p-1 px-4 text-white rounded-md'>
+                    <button
+                        onClick={() => loginWithRedirect()}
+                        className=' bg-orange-500 p-1 px-4 text-white rounded-md'
+                    >
                         Login
-                    </div>
-                    <div className='w-8'>
+                    </button>
+                    <button
+                        type='button'
+                        onClick={() => setDarkTheme(!darkTheme)}
+                        className='w-8'
+                    >
+                        {darkTheme ? "Light" : "Dark"}
                         <img src={day} alt='day' />
-                    </div>
+                    </button>
                 </div>
             </div>
             <div className='flex justify-between px-10 items-center py-1'>
@@ -52,4 +74,6 @@ export default function navbar() {
             <Nav />
         </div>
     );
-}
+};
+
+export default Navbar;

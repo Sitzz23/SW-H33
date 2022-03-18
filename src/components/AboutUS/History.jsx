@@ -11,7 +11,7 @@ export default function History() {
                         History
                     </h1>
 
-                    <p className='text-[#9F9F9F] text-[22px]'>
+                    <p className='text-[#9F9F9F] '>
                         The beginning of formal technical education in India can
                         be dated back to the mid-19th century. Major policy
                         initiatives in the pre-independence period included the
@@ -43,7 +43,7 @@ export default function History() {
                     </p>
                 </div>
 
-                <div className='px-8 font-normal text-2xl'>
+                <div className='px-8 font-normal '>
                     <p className='p-4 py-6'>
                         All India Council for Technical Education (AICTE) was
                         set up in November 1945 as a national-level apex
@@ -56,21 +56,21 @@ export default function History() {
                     </p>
 
                     <ul className='list-disc px-8'>
-                        <li className='py-2 text-xl'>
+                        <li className='py-2 '>
                             Statutory authority for planning, formulation, and
                             maintenance of norms & standards
                         </li>
-                        <li className='py-2 text-xl'>
+                        <li className='py-2 '>
                             Quality assurance through accreditation
                         </li>
-                        <li className='py-2 text-xl'>
+                        <li className='py-2 '>
                             Funding in priority areas, monitoring, and
                             evaluation
                         </li>
-                        <li className='py-2 text-xl'>
+                        <li className='py-2 '>
                             Maintaining parity of certification & awards
                         </li>
-                        <li className='py-2 text-xl'>
+                        <li className='py-2 '>
                             The management of technical education in country
                         </li>
                     </ul>
@@ -112,7 +112,7 @@ export default function History() {
                         <h1 className='text-[#0C5C8C] text-4xl font-bold pb-4'>
                             Role of National Working Group
                         </h1>
-                        <p className='p-8 w-2/3 text-xl pl-0'>
+                        <p className='p-8 w-2/3  pl-0'>
                             The Government of India (the Ministry of Human
                             Resource Development) also constituted a National
                             Working Group to look into the role of AICTE in the
@@ -130,7 +130,7 @@ export default function History() {
                             The All India Council For Technical Education Act
                             1987
                         </h1>
-                        <p className='p-8 w-2/3 text-xl pl-0'>
+                        <p className='p-8 w-2/3  pl-0'>
                             (No 52 of 1987 as passed by both the Houses of
                             Parliament) <br />
                             <br />
