@@ -17,7 +17,7 @@ const App = () => {
 
     return (
         <BrowserRouter>
-            <div className={darkTheme ? "dark" : " "}>
+            <div className={darkTheme ? "dark" : ""}>
                 <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
                 <Routes>
                     <Route path='/' element={<Landing />}></Route>

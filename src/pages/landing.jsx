@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
+//import Navbar from "../components/navbar";
 import LandCar from "../components/home/land-carousel";
 import QuickLinks from "../components/home/quicklinks";
 import Bureaus from "../components/home/bureaus";
@@ -10,7 +10,7 @@ import Footer from "../components/footer";
 export default function landing() {
     return (
         <div className='overflow-x-hidden'>
-            <Navbar />
+       
             <LandCar />
             <QuickLinks />
             <Bureaus />

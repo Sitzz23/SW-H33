@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../navbar";
+//import Navbar from "../navbar";
 import Footer from "../footer";
 import DoughNut from "../donutchart";
 
 export default function Dashboard() {
     return (
         <div className='flex flex-col'>
-            <Navbar />
+           
             <div className='flex p-8 mt-8'>
                 <div className='basis-1/5 py-8 flex-col flex border-customized-ot border-black'>
                     <ul className='text-center'>

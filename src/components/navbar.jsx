@@ -16,7 +16,7 @@ const Navbar = ({ darkTheme, setDarkTheme }) => {
     }
     const { loginWithRedirect } = useAuth0();
     return (
-        <div className='dark:bg-slate-900'>
+        <div className='dark:bg-slate-900 bg-white'>
             <div className='relative'>
                 <img src={nav} alt='navbar' width='100%' />
                 <div className='flex gap-4 absolute text-white left-[50%] top-[50%] text-lg -translate-y-1/2'>

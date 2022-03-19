@@ -3,12 +3,11 @@ import itict from "../../assets/images/itict.png";
 import itict1 from "../../assets/images/itict1.png";
 import itict2 from "../../assets/images/itict2.png";
 import Footer from "../footer";
-import Navbar from "../navbar";
+//import Navbar from "../navbar";
 
 export default function Scheme() {
     return (
         <div className='flex flex-col'>
-            <Navbar />
             <div className='flex justify-around'>
                 <div className='w-1/2 p-8'>
                     <h1 className='text-[#FF725E] text-4xl font-bold roboto p-6 pl-0'>
