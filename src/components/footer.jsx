@@ -3,7 +3,7 @@ import footer from "../assets/images/footer.svg";
 
 export default function Footer() {
     return (
-        <div className='flex flex-col mt-12 w-screen overflow-hidden'>
+        <div className='flex flex-col pt-12 w-screen overflow-hidden dark:bg-slate-900'>
             <div>
                 <img src={footer} alt='nav' className='w-full' />
             </div>

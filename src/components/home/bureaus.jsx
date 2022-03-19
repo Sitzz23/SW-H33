@@ -8,20 +8,20 @@ import Img4 from "../../assets/images/Homepage_Bureaus_Administration.jpeg";
 
 export default function bureaus() {
     return (
-        <>
-            <div className='flex items-center justify-center'>
+        <div className="dark:bg-slate-900">
+            <div className='flex items-center justify-center dark:bg-slate-900'>
                 <hr
                     style={{
                         height: "3px",
-                        backgroundColor: "#0C5C8C",
+                        backgroundColor: "#FF725E",
                         width: "500px",
                     }}
                 />
-                <h1 className='p-4  text-[2rem] text-[#0C5C8C]'>Bureaus</h1>
+                <h1 className='p-4  text-[2rem] text-[#0C5C8C] dark:text-[#FF725E]'>Bureaus</h1>
                 <hr
                     style={{
                         height: "3px",
-                        backgroundColor: "#0C5C8C",
+                        backgroundColor: "#FF725E",
                         width: "500px",
                     }}
                 />
@@ -123,6 +123,6 @@ export default function bureaus() {
                     {/* <p className="legend">Legend 1</p> */}
                 </div>
             </Carousel>
-        </>
+        </div>
     );
 }

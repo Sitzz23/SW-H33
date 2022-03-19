@@ -23,7 +23,7 @@ export default function LandCarousel() {
                     </button>
                 </div>
             </div>
-            <div className='w-[40vw]'>
+            <div className='w-[40vw] dark:bg-slate-900'>
                 <Carousel
                     autoPlay='true'
                     interval={2000}
